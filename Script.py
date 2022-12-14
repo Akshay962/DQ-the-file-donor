@@ -123,7 +123,7 @@ Nᴀᴍᴇ - {}"""
     I_CUDNT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...\n\n╔═══════ 🔎🔸🔸🔸🔍 ══════╗\n<a href=https://www.google.com>𝐆𝐨𝐨𝐠𝐥𝐞</a>\n╚═══════ 🔎🔹🔹🔹🔍 ══════╝"""
+ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...\n\n╔═════ 🔎🔸🔸🔸🔍 ════╗\n<a href=https://www.google.com>𝐆𝐨𝐨𝐠𝐥𝐞</a>\n╚═════ 🔎🔹🔹🔹🔍 ════╝"""
 
     MVE_NT_FND = """Your Movie Not Available in My Database
 
@@ -135,7 +135,7 @@ Send Message 📩
 
 ╔═════ 📥📥📥📥📥 ════╗
 
-            <a href=https://www.instagram.com/akshaychand10>REQUEST TO ADMIN</a>
+            <a href=https://t.me/+sJaVzpXTaExhMGNl>𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗧𝗢 𝗔𝗗𝗠𝗜𝗡</a>
 
 ╚═════ 📤📤📤📤📤 ════╝"""
 
