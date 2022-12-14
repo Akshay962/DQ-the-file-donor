@@ -123,18 +123,7 @@ Nᴀᴍᴇ - {}"""
     I_CUDNT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...
-               <a href=https://www.google.com>𝐆𝐨𝐨𝐠𝐥𝐞</a>
-
-
-╔═══════ 🔎🔸🔸🔸🔍 ══════╗
-
-               <a href=https://www.google.com/search?q={reply}>🔍 𝗖𝗹𝗶𝗰𝗸 𝗧𝗼 𝗖𝗵𝗲𝗰𝗸 𝗦𝗽𝗶𝗹𝗹𝗶𝗻𝗴 ✅</a>
-     
-               <a href=https://www.google.com/search?q={reply}+release+date>🔍 𝗖𝗹𝗶𝗰𝗸 𝗧𝗼 𝗖𝗵𝗲𝗰𝗸 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲 📅</a>
-
-
-╚═══════ 🔎🔹🔹🔹🔍 ══════╝"""
+ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...\n\n<a href=https://www.google.com>𝐆𝐨𝐨𝐠𝐥𝐞</a>"""
 
     MVE_NT_FND = """Your Movie Not Available in My Database
 
