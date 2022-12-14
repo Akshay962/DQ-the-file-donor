@@ -1282,7 +1282,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}.</b>"
+        cap = f"</b>📟 ᴍᴏᴠɪᴇ ɴᴀᴍᴇ:- {search}\n👩🏻‍💻 ʀᴇǫᴜᴇsᴛ:- {message.from_user.mention}\n🚀 ɢʀᴏᴜᴘ:- {message.chat.title}\n\n©️ ᴘᴏᴡᴇʀ ʙʏ:- <a href=https://t.me/+auX77kg8XeI5YTI1>🍟ɪ ᴘᴀᴘᴋᴏʀɴ ᴏꜰꜰɪᴄɪᴀʟ</a></b>"
     if imdb and imdb.get('poster'):
         try:
             if message.chat.id == SUPPORT_CHAT_ID:
@@ -1379,7 +1379,7 @@ async def advantage_spell_chok(client, msg):
     if not g_s:
         await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply(script.I_CUDNT.format(RQST))
-        await asyncio.sleep(8)
+        await asyncio.sleep(60)
         await k.delete()
         return
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
@@ -1409,7 +1409,7 @@ async def advantage_spell_chok(client, msg):
     if not movielist:
         await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply(script.I_CUD_NT.format(RQST))
-        await asyncio.sleep(8)
+        await asyncio.sleep(60)
         await k.delete()
         return
     SPELL_CHECK[msg.id] = movielist
@@ -1427,7 +1427,7 @@ async def advantage_spell_chok(client, msg):
     )
     try:
         if settings['auto_delete']:
-            await asyncio.sleep(600)
+            await asyncio.sleep(60)
             await spell_check_del.delete()
     except KeyError:
             grpid = await active_connection(str(message.from_user.id))
