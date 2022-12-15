@@ -33,8 +33,7 @@ async def start(client, message):
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m = await msg.reply_photo(photo="https://te.legra.ph/file/7dd82cffee9fe6671ac61.jpg", caption=f"𝐇𝐞𝐲 👋, {msg.from_user.mention}! \n\n𝐒𝐄𝐋𝐄𝐂𝐓 𝐘𝐎𝐔𝐑 𝐌𝐎𝐕𝐈𝐄 𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐌𝐎𝐕𝐈𝐄 𝐍𝐀𝐌𝐄  👇👇👇",
-                    reply_markup=InlineKeyboardMarkup(btn))
+        await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
