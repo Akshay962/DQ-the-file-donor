@@ -902,6 +902,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "group_rules":
+        buttons = [[
+            InlineKeyboardButton('💢 ᴄʟᴏꜱᴇ 💢', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.GROUP_R_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='filters'),
