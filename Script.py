@@ -206,11 +206,7 @@ Send Message 📩
 
 =========== • ✠ • ===========</b>"""
 
-    IMDB_TEMPLATE_TXT = """
-
-Hey {mention}👋
-
-📟 Movie Name: {title}
+    IMDB_TEMPLATE_TXT = """📟 Movie Name: {title}
 📧 Votes : {votes}
 🎞️ Genres: {genres}
 🗒️ Release Date : {release_date}
