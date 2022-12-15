@@ -6,7 +6,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/DQ_The_File_Donor_Updates'>Jᴏᴇʟ Kᴜʀɪᴀɴ Bɪᴊᴜ</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/iPapkornOfficial'>Akshay Chand</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
@@ -37,7 +37,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/DQ_The_File_Donor_Updates)</code>
+<code>[Button Text](buttonurl:https://t.me/iPapkornOfficial)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -207,20 +207,20 @@ Send Message 📩
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """📟 Movie Name: {title}
-📧 Votes : {votes}
+📧 Votes: {votes}
 🎞️ Genres: {genres}
-🗒️ Release Date : {release_date}
+🗒️ Release Date: {release_date}
 📆 Year: {year}
-🌟 Rating: {rating}
-🔊 Languages : {languages}
+🌟 Rating: {rating}/10
+🔊 Languages: {languages}
 🎬 Director: {director}
 👨🏻‍🦱 Producer: {producer}
 📝 Writer: {writer}
 ⏰ RunTime: {runtime} Minutes
-🎛 Countries : {countries}
+🎛 Countries: {countries}
 
-👩🏻‍💻 Requested By : {message.from_user.mention}
-🚀 Group : {message.chat.title}
+👩🏻‍💻 Requested By: {message.from_user.mention}
+🚀 Group: {message.chat.title}
 
 ©️ Power by: <a href=https://t.me/+auX77kg8XeI5YTI1>i Papkorn Official 🍟</a>"""
     
