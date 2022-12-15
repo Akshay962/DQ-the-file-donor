@@ -140,7 +140,13 @@ Send Message 📩
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>Hay 👋 {}....🌹
+😎 welcome to Our Group...
+  
+      👉 <s>{}</s> 👈
+ 
+😎 You Can Find 🔍 Movies / Series / Animes etc. From Here. Enjoy 😉...
+If you have any question then contact us below  👇</b>"""
 
     OWNER_INFO = """<b>
 🔹 ᴍʏ ɴᴀᴍᴇ : ᴀᴋꜱʜᴀʏ ᴄʜᴀɴᴅ
@@ -197,7 +203,7 @@ Send Message 📩
 
 <b>
 ╭─────── • ◆ • ───────╮
-🔅 ɪɴsᴛᴀɢʀᴀᴍ: <a href=https://www.instagram.com/akshaychand10>ꜰᴏʟʟᴏᴡ</a>🔅
+🔅  ɪɴsᴛᴀɢʀᴀᴍ: <a href=https://www.instagram.com/akshaychand10>ꜰᴏʟʟᴏᴡ</a>   🔅
 ╰─────── • ◆ • ───────╯
 
 =========== • ✠ • ===========
