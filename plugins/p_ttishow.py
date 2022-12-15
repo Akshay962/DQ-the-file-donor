@@ -44,10 +44,9 @@ async def save_group(bot, message):
                     InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
-                photo="https://te.legra.ph/file/f760ea1ca9bfb8f595b0e.jpg", 
-                caption=f"<b>👋 Hi! {u.mention} \n\n✨, Welcome To Our Group {message.chat.title}. \n\nYou Can Find Movies / Series / Animes etc. From Here. Enjoy 😉.\n\n©️ Admin @Captain789bot\n\n🔎 How to Search Movies and WebSeries 👇</b>",
-                reply_markup)
+        await message.reply_text(
+            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
+            reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
@@ -57,8 +56,8 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply_video(
-                                                 video=(MELCOW_VID),
+                temp.MELCOW['welcome'] = await message.reply_photo(
+                                                 photo=(MELCOW_VID),
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
