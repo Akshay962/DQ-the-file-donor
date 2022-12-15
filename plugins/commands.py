@@ -21,17 +21,18 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        buttons = [
-            [
-                InlineKeyboardButton('᯽ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᯽', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],
-            [
-                InlineKeyboardButton('☉ ɢʀᴏᴜᴘ ʀᴜʟᴇꜱ ☉', url='https://pasty.lus.pm/kGxbew/raw')
-            ],
-            [
-                InlineKeyboardButton('✪ ʜᴇʟᴘ ✪', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            ]
-            ]
+        buttons = [[
+                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
+                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                ],[
+                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
+                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                ],[
+                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
