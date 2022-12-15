@@ -56,22 +56,22 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply_photo(
-                                                 photo=(MELCOW_VID),
+                temp.MELCOW['welcome'] = await message.reply_video(
+                                                 video=(MELCOW_VID),
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('💌 ʜᴇʟᴘ 💌', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                                                                           InlineKeyboardButton('🔸ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔸', url=CHNL_LNK)
+                                                                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                                                                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                                                                         ],[
-                                                                           InlineKeyboardButton('🔹 ɢʀᴏᴜᴘ ʀᴜʟᴇꜱ 🔹', url='https://pasty.lus.pm/kGxbew/raw")
+                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
                 )
                 
         if settings["auto_delete"]:
-            await asyncio.sleep(180)
+            await asyncio.sleep(600)
             await (temp.MELCOW['welcome']).delete()
                 
                
