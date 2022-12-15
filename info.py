@@ -22,8 +22,8 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/d2c20ed467fd8a101409f.jpg https://graph.org/file/9fbfa93142640fdaeaf80.jpg https://graph.org/file/e2fba097d69d27061b1e1.jpg https://graph.org/file/fed816c138a42cafc24bb.jpg https://graph.org/file/e6ecfe9f99030aebbbd05.jpg https://graph.org/file/941bae7b0584a16eb0fd2.jpg https://graph.org/file/3f38fa53398771d450c0f.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
+NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/fa0dbbc8a53860907671e.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/c7a4a9010d38b4e364a18.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
@@ -47,10 +47,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+GOFte-Rz2tcxODg1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+mCMdCb_ymAowZmNl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+auX77kg8XeI5YTI1')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DQ_The_File_Donor_Support')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'AkshayChand10')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -78,5 +78,5 @@ LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies 
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
-SHORTENER_API = environ.get("SHORTENER_API", 'iQ2iqO9EXFbcjek412Dg5j6stWu2')
+SHORTENER_API = environ.get("SHORTENER_API", 'NyqS16pjqUQu5bheRRGQlBEQPgm2')
 LONG_DROPLINK_URL = environ.get("LONG_DROPLINK_URL", False)
