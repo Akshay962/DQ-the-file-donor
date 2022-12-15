@@ -238,4 +238,38 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ⏰Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
 
-    
+    GROUP_R_TXT = """<b>GROUP RULES
+
+☀️  Search With Correct Spelling..
+
+☀️ Try to Search movie web series With  Year If The bot is Not Sending You Accurate Result..
+
+☀️ Search Series In The Given From Example : Gotham S03E01 And S03E10..
+
+☀️ Search Movies and web series  in The Given From Example:    
+
+🔰 Movies 
+
+(1) Avengers.. ✅
+(2) Avengers Hindi..✅
+(3) Avengers 2012 Hindi..✅
+(4) Don't Tipe Avengers Hindi Dubbed..❌
+(5) Avengers Hindi movie..❌
+
+🔰 Web Series
+
+(1) Money heist..✅
+(2) Money heist S01 EP1..✅
+(3) Money heist Hindi..✅
+(4) Money heist all season..❌
+(5) Money heist all Hindi season..❌
+
+☀️Don't Do Any Self Promotion.
+
+☀️ Don't Send Any Kind Of Photo Video Documents URL ETC.
+
+☀️ Sending The Above  Mantained Things Will Lead To Permanent Ban.
+
+☀️Don't Request Any Things Other Than Movie Series Animes.
+
+☀️ Give and Tak Respect</b>.."""
