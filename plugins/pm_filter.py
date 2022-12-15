@@ -1343,7 +1343,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         if message.chat.id == SUPPORT_CHAT_ID:
             await message.reply_text(f"<b>Dear. {message.from_user.mention},\n\n⚡ {str(total_results)} ⚡ results are already available for your request 🔎 {search} 🔍 in our bot..\n\nplz Go back our Group and type movie name 👇\n\n╔═══════════════╗\n\n<a href=https://t.me/+sJaVzpXTaExhMGNl>Back to Group</a>\n\n╚═══════════════╝</b>")
-            else:
+        else:
             fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             try:
                 if settings['auto_delete']:
