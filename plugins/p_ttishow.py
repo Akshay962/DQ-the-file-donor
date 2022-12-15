@@ -38,11 +38,9 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                 ],[
-                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
-                  ]]
+            InlineKeyboardButton('💌 ʜᴇʟᴘ 💌', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('🔹ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔹', url='https://t.me/+auX77kg8XeI5YTI1')
+          ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
             text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
@@ -56,15 +54,17 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply_video(
-                                                 video=(MELCOW_VID),
+                temp.MELCOW['welcome'] = await message.reply_photo(
+                                                 photo=(MELCOW_VID),
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                                                                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                                                           InlineKeyboardButton('💌 ʜᴇʟᴘ 💌', url=f"https://t.me/{temp.U_NAME}?start=help")
                                                                         ],[
-                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                                                                           InlineKeyboardButton('ɢʀᴏᴜᴘ ʀᴜʟᴇs', url='https://pasty.lus.pm/kGxbew/raw'),
+                                                                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=CHNL_LNK)
+                                                                        ],[
+                                                                           InlineKeyboardButton("🔹ꜰᴏʟʟᴏᴡ ᴍᴇ ɪɴsᴛᴀɢʀᴀᴍ🔹", url="https://www.instagram.com/akshaychand10")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
