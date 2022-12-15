@@ -44,9 +44,10 @@ async def save_group(bot, message):
                     InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
-        await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
-            reply_markup=reply_markup)
+        await message.reply_photo(
+                photo="https://te.legra.ph/file/f760ea1ca9bfb8f595b0e.jpg", 
+                caption=f"<b>👋 Hi! {u.mention} \n\n✨, Welcome To Our Group {message.chat.title}. \n\nYou Can Find Movies / Series / Animes etc. From Here. Enjoy 😉.\n\n©️ Admin @Captain789bot\n\n🔎 How to Search Movies and WebSeries 👇</b>",
+                reply_markup)
     else:
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
@@ -61,17 +62,17 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                                                                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                                                           InlineKeyboardButton('💌 ʜᴇʟᴘ 💌', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                                                                           InlineKeyboardButton('🔸ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🔸', url=CHNL_LNK)
                                                                         ],[
-                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                                                                           InlineKeyboardButton('🔹 ɢʀᴏᴜᴘ ʀᴜʟᴇꜱ 🔹', url='https://pasty.lus.pm/kGxbew/raw")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
                 )
                 
         if settings["auto_delete"]:
-            await asyncio.sleep(600)
+            await asyncio.sleep(180)
             await (temp.MELCOW['welcome']).delete()
                 
                
