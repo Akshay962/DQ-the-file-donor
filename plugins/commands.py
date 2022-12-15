@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('᯽ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᯽', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],
             [
-                InlineKeyboardButton('☉ ɢʀᴏᴜᴘ ʀᴜʟᴇꜱ ☉', callback_data='group_rules')
+                InlineKeyboardButton('☉ ɢʀᴏᴜᴘ ʀᴜʟᴇꜱ ☉', url='https://pasty.lus.pm/kGxbew/raw')
             ],
             [
                 InlineKeyboardButton('✪ ʜᴇʟᴘ ✪', url=f"https://t.me/{temp.U_NAME}?start=help"),
