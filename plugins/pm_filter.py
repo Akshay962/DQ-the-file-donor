@@ -61,7 +61,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Hii Dear\nYour Movies and web series Available in My Group 📩\n\n🔎 Join Group and Search Again\n\n✅ Join Group\n\n╔═════════╗\n\n<a href=https://t.me/+7p7DwzUq5WdmYWU1>👉𝗝𝗼𝗶𝗻 𝗚𝗿𝗼𝘂𝗽👈</a>\n\n╚═════════╝</b>")
+    await message.reply_text("<b>Hii {message.from_user.mention} 🌹\n\nYour Movies and web series Available in My Group 📩\n\n🔎 Join Group and Search Again\n\n✅ Join Group\n\n╔═════════╗\n\n<a href=https://t.me/+7p7DwzUq5WdmYWU1>👉𝗝𝗼𝗶𝗻 𝗚𝗿𝗼𝘂𝗽👈</a>\n\n╚═════════╝</b>")
     await bot.send_message(
         chat_id=-1001893557784,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
