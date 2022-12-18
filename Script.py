@@ -215,13 +215,10 @@ If you have any question then contact us below  👇</b>"""
     IMDB_TEMPLATE_TXT = """📟 Movie Name: {title}
 📧 Votes: {votes}
 🎞️ Genres: {genres}
-🗒️ Release Date: {release_date}
 📆 Year: {year}
 🌟 Rating: {rating}/10
 🔊 Languages: {languages}
 🎬 Director: {director}
-👨🏻‍🦱 Producer: {producer}
-📝 Writer: {writer}
 ⏰ RunTime: {runtime} Minutes
 🎛 Countries: {countries}
 
